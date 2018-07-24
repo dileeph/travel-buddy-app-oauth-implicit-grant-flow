@@ -10,8 +10,8 @@
         function callFacebookGet() {
             var facebookAuthEndpoint = "https://www.facebook.com/v2.10/dialog/oauth";
             var responseType = "token";
-            var clientId = "118592235486459";
-            var redirectUrl = "http://travelbuddyapp.com:8080/callback.html";
+            var clientId = "118592235486459"; //Replace with your client id
+            var redirectUrl = "https://localhost:8443/callback.html";
             var scope = "public_profile user_friends";
 
             var requestEndpoint = facebookAuthEndpoint + "?response_type=" + encodeURIComponent(responseType) + "&" +
