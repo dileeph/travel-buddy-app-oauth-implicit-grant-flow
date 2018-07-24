@@ -1,6 +1,8 @@
 # travel-buddy-app-oauth-implicit-grant-flow
 
 Edited pom.xml to run tomcat in https mode. Now Facebook supports only HTTPS Callback URLs.
+Original authors instructions posted at https://dzone.com/articles/oauth2-implicit-grant-flow-example-using-facebook.
+
 
 Execute following command in the project folder to generate self signed key. (https://www.logicbig.com/tutorials/misc/java-ee-server/apache-tomcat-https.html).
 
